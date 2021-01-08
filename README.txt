@@ -44,8 +44,8 @@ Instructions:
 		Just add your thumbnails to the thumbnails section in the following format:
 
 			<article>
-				<a class="thumbnail" href="path/to/fullsize.jpg">
-					<img src="path/to/thumbnail.jpg" alt="" />
+				<a class="thumbnail" href="path/to/fullsize.png">
+					<img src="path/to/thumbnail.png" alt="" />
 				</a>
 				<h2>Title</h2>
 				<p>Description.</p>
@@ -63,7 +63,7 @@ Instructions:
 		add it to your thumbnail's <a> element and set it to any valid "background-position"
 		value. For example, this:
 
-			<a class="thumbnail" href="path/to/fullsize.jpg" data-position="top left">...</a>
+			<a class="thumbnail" href="path/to/fullsize.png" data-position="top left">...</a>
 
 		... positions this particular full size image in the top left corner of the viewer (as
 		opposed to its center, the default), effectively limiting cropping to everything but
